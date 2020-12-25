@@ -95,20 +95,15 @@ header {
   padding-top: 24px;
   padding-bottom: 25px;
   align-items: center;
-  /* height: 80px; */
 }
 
 .nav-conteiner {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: flex-start; */
 }
 
 /* логотип */
 
 .logo {
-  /* display: flex; */
-  /* display: block; */
   margin-top: 0px;
   margin-right: 93px;
   margin-bottom: 0px;
@@ -159,10 +154,6 @@ header {
 
 .address-link {
   display: inline-block;
-  /* text-align: right;
-  position: inherit; */
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
 }
 
 .address-link:not(:last-child) {
@@ -221,7 +212,6 @@ header {
   height: 50px;
   border-radius: 4px;
   padding: 10px;
-  /* position: relative; */
 }
 
 /* Блок преимущества и услуги */
@@ -281,7 +271,6 @@ header {
   display: block;
   width: 370px;
   height: 294px;
-  /* margin-bottom: 94px; */
 }
 
 .service-list:not(:last-child) {
