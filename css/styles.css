@@ -354,12 +354,10 @@ header {
 .command-people {
   display: block;
   width: 270px;
-  /* height: 368px; */
   background-color: var(--main-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  /* padding-bottom: 30px; */
 }
 
 .command-people:not(:last-child) {
@@ -576,6 +574,12 @@ header {
   box-sizing: border-box;
   width: 370px;
   height: 404px;
+}
+
+.portfolio-product:hover,
+.portfolio-product:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-product:not(:nth-child(3n)) {
