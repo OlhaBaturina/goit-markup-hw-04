@@ -133,21 +133,24 @@ header {
   letter-spacing: 0.02em;
 }
 
+.nav:hover,
+.nav:focus,
+.current {
+  color: var(--accent-color);
+}
+
 .link-list {
   display: flex;
   padding: 0;
   margin: 0;
   align-items: center;
 }
+.nav-link {
+  display: inline-block;
+}
 
 .nav-link:not(:last-child) {
   margin-right: 50px;
-}
-
-.nav:hover,
-.nav:focus,
-.current {
-  color: var(--accent-color);
 }
 
 /* Адрес в навигации */
@@ -168,25 +171,30 @@ header {
 }
 
 .contact-icon {
-  /* display: inline-block; */
   fill: #757575;
   margin-right: 10px;
   color: #757575;
 }
 
-.contact-icon:hover,
+.address:focus,
+.address:hover {
+  fill: var(--accent-color);
+  color: var(--accent-color);
+}
+
+/* .nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+} */
+
+/* .contact-icon:hover,
 .contact-icon:focus {
   fill: #2196f3;
-}
+} */
 
 .address {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-}
-
-.address:hover,
-.address:focus {
-  color: var(--accent-color);
 }
 
 /* Страница 1 - Index.html */
@@ -194,17 +202,18 @@ header {
 /* Герой */
 
 .hero-box {
-  background-color: #c4c4c4;
+  overflow: hidden;
+  background-image: linear-gradient(
+    90deg,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );
   background-image: url(../images/people.jpg);
+  background-color: #c4c4c4;
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* overflow: hidden;
-  background-image: linear-gradient(
-    90deg,
-    rgba(47, 48, 58, 0.4) 50%,
-    rgba(47, 48, 58, 0.4) 50%
-  ); */
 
   color: var(--main-color);
   text-align: center;
@@ -431,14 +440,14 @@ header {
 }
 
 .client-link:hover,
-.client-icon:hover {
+.client-link:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
   fill: var(--accent-color);
 }
-
+/* 
 .logo-icon {
-}
+} */
 
 /* Подвал */
 
