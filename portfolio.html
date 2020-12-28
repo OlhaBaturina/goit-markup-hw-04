@@ -15,7 +15,7 @@
   </head>
   <body>
     <header>
-      <div class="header-container">
+      <div class="container header-container">
         <nav class="nav-conteiner">
           <!--Логотип-->
           <a
@@ -53,14 +53,17 @@
             </li>
           </ul>
         </nav>
-        <address class="address-container cursor">
+        <address class="address-container">
           <ul>
             <li class="address-link">
               <a
                 href="mailto:info@devstudio.com"
                 aria-label="Написать на имейл"
-                class="address cursor"
+                class="address nav-link"
               >
+                <svg class="contact-icon" width="15px" height="12px">
+                  <use href="./images/symbol-defs.svg#icon-mail"></use>
+                </svg>
                 info@devstudio.com</a
               >
             </li>
@@ -68,10 +71,13 @@
               <a
                 href="tel:+380961111111"
                 aria-label="Позвонить на мобильный"
-                class="address cursor"
+                class="address nav-link"
               >
-                +380961111111
-              </a>
+                <svg class="contact-icon" width="10px" height="16px">
+                  <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                +380961111111</a
+              >
             </li>
           </ul>
         </address>
@@ -246,8 +252,8 @@
       </section>
     </main>
     <!--Подвал-->
-    <footer>
-      <div class="footer">
+    <footer class="footer">
+      <div class="container footer-container">
         <div class="footer-box">
           <!--Логотип-->
           <a
@@ -281,6 +287,39 @@
               </li>
             </ul>
           </address>
+        </div>
+        <div class="footer-social">
+          <h2>присоединяйтесь</h2>
+          <ul>
+            <li class="social">
+              <a href="https://www.instagram.com/" class="social-link">
+                <svg class="link-icon">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social">
+              <a href="https://twitter.com/?lang=uk" class="social-link">
+                <svg class="link-icon">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social">
+              <a href="https://www.facebook.com/" class="social-link">
+                <svg class="link-icon">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social">
+              <a href="https://www.linkedin.com/" class="social-link">
+                <svg class="link-icon">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
