@@ -167,15 +167,15 @@ header {
   margin-right: 50px;
 }
 
-.mail-icon {
+.contact-icon {
   /* display: inline-block; */
   fill: #757575;
   margin-right: 10px;
   color: #757575;
 }
 
-.mail-icon:hover,
-.mail-icon:focus {
+.contact-icon:hover,
+.contact-icon:focus {
   fill: #2196f3;
 }
 
@@ -398,20 +398,64 @@ header {
   height: 20px;
 }
 
+/* Логотипы компаний */
+.client {
+  display: block;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.client > h2 {
+  padding-bottom: 50px;
+}
+
+.client-box {
+  display: flex;
+  justify-content: center;
+}
+
+.client-icon:not(:last-child) {
+  margin-right: 30px;
+}
+
+.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+
+.client-link:hover,
+.client-icon:hover {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.logo-icon {
+}
+
 /* Подвал */
 
 .footer {
+  display: flex;
+  /* align-items: flex-start; */
   background-color: var(--darck-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .footer-box {
+  display: inline-block;
+
+  margin-right: 70px;
   line-height: 1.71;
   font-style: normal;
-
-  display: block;
-  margin: 0;
 }
 
 .footer-box .logo {
@@ -437,6 +481,22 @@ header {
 .footer-contacts.mail {
   display: block;
   padding-bottom: 9px;
+}
+
+.footer-social {
+  display: inline-block;
+}
+
+.footer-social > h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 /* Страница 2 - Portfolio.html */
