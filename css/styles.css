@@ -307,14 +307,12 @@ header {
 .section-service {
   display: flex;
   margin-top: 50px;
-  /* margin-bottom: 94px;  */
 }
 
 .service-list {
   display: block;
   width: 370px;
   height: 294px;
-  /* margin-bottom: 94px; */
 }
 
 .service-list:not(:last-child) {
