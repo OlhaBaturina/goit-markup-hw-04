@@ -182,6 +182,11 @@ header {
   color: var(--accent-color);
 }
 
+.contact-icon:focus,
+.contact-icon:hover {
+  fill: inherit;
+}
+
 /* .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
