@@ -146,7 +146,7 @@ header {
   align-items: center;
 }
 .nav-link {
-  display: inline-block;
+  display: inline-flex;
 }
 
 .nav-link:not(:last-child) {
