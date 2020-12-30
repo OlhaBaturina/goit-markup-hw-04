@@ -176,26 +176,11 @@ header {
   color: #757575;
 }
 
-.address:focus,
-.address:hover {
+.address:hover,
+.address:focus {
   fill: var(--accent-color);
   color: var(--accent-color);
 }
-
-.contact-icon:focus,
-.contact-icon:hover {
-  fill: inherit;
-}
-
-/* .nav-link:hover,
-.nav-link:focus {
-  color: var(--accent-color);
-} */
-
-/* .contact-icon:hover,
-.contact-icon:focus {
-  fill: #2196f3;
-} */
 
 .address {
   letter-spacing: 0.02em;
