@@ -171,14 +171,12 @@ header {
 }
 
 .contact-icon {
-  fill: #757575;
+  fill: currentColor;
   margin-right: 10px;
-  color: #757575;
 }
 
 .address:hover,
 .address:focus {
-  fill: var(--accent-color);
   color: var(--accent-color);
 }
 
@@ -430,13 +428,10 @@ header {
 
 .client-link:hover,
 .client-link:focus {
-  border: 1px solid var(--accent-color);
   border-radius: 4px;
   fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
-/* 
-.logo-icon {
-} */
 
 /* Подвал */
 
@@ -536,6 +531,7 @@ header {
   background-color: var(--command-background-color);
 
   /* Позиционирование кнопок */
+
   display: inline-block;
   height: 38px;
   padding-top: 6px;
@@ -565,7 +561,7 @@ header {
   flex: calc((100% - 60px) / 3);
 }
 
-.portfolio-product {
+.product {
   display: inline-block;
   background: var(--main-color);
   border: 1px solid #eeeeee;
@@ -574,8 +570,8 @@ header {
   height: 404px;
 }
 
-.portfolio-product:hover,
-.portfolio-product:focus {
+.product:hover,
+.product:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
